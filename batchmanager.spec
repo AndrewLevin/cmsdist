@@ -2,13 +2,13 @@
 
 Source: git://github.com/AndrewLevin/relval_batch_assigner.git?obj=master/%{realversion}&export=%n-%{realversion}&output=/%n-%{realversion}.tar.gz
 
-# %prep
+%prep
 
-# %build
+%build
 
 # tar -xvf batchmanager.tar.gz
 
-# %install
+%install
 
-# %post
+%post
 
