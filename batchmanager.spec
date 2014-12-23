@@ -1,6 +1,6 @@
 ### RPM cms batchmanager 1.0.0
 
-Source: git://github.com/AndrewLevin/relval_batch_assigner.git?obj=master&export=%n&output=/%n.tar.gz
+Source: git://github.com/AndrewLevin/relval_batch_assigner.git?obj=master/%{realversion}&export=%n&output=/%n.tar.gz
 
 # %prep
 
