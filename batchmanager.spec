@@ -6,6 +6,9 @@ Source: git://github.com/AndrewLevin/relval_batch_assigner.git?obj=master&export
 
 # %build
 
+touch newfile.txt
+echo hi >> newfile.txt
+
 # tar -xvf batchmanager.tar.gz
 
 # %install
