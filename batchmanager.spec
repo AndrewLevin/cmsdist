@@ -13,4 +13,7 @@ echo blah >> newfile.txt
 
 %install
 
+touch newfile2.txt
+echo blah >> newfile2.txt
+
 %post
