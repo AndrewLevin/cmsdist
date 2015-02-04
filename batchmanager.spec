@@ -9,7 +9,7 @@ Source0: git://github.com/AndrewLevin/relval_batch_assigner.git?obj=master/%{rea
 
 %install
 mkdir -p %i/{bin,lib} %i/$PYTHON_LIB_SITE_PACKAGES
-cp -pf %_builddir/%n/* %i/$PYTHON_LIB_SITE_PACKAGES
+cp -pf %_builddir/%n-%{realversion}/* %i/$PYTHON_LIB_SITE_PACKAGES
 
 # Generate dependencies-setup.{sh,csh} so init.{sh,csh} picks full environment.
 rm -rf %i/etc/profile.d
