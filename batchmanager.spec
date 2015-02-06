@@ -10,7 +10,7 @@ Requires: cherrypy rotatelogs
 
 %install
 mkdir -p %i/{bin,lib} %i/$PYTHON_LIB_SITE_PACKAGES
-cp -pf %_builddir/%n-%{realversion}/* %i/$PYTHON_LIB_SITE_PACKAGES
+cp -pf %_builddir/%n-%{realversion}/* %i/bin/
 
 # Generate dependencies-setup.{sh,csh} so init.{sh,csh} picks full environment.
 rm -rf %i/etc/profile.d
