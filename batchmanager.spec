@@ -1,4 +1,4 @@
-### RPM cms batchmanager 1.0.6
+### RPM cms batchmanager 1.0.7
 
 Source0: git://github.com/AndrewLevin/relval_batch_assigner.git?obj=master/%{realversion}&export=%n-%{realversion}&output=/%n-%{realversion}.tar.gz
 Requires: cherrypy rotatelogs py2-mysqldb
